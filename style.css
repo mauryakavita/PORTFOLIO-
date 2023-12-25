@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -61,20 +63,25 @@
    border: 3px solid goldenrod;
    background-color: rgb(255, 200, 0);
    height: auto;
-   width: 200px;
+   max-width: 200px;
    box-shadow: 0px 6px 9px black;
    font-size: 15px;
+   position: relative;
+   z-index: 1;
    
  }
 
  .hero-section{
    position:relative;
+   margin-left: 200px;
+    margin-right: 100px;
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 5rem;
    margin: 4rem auto;
-padding: 0 1rem;
+padding: 0 9rem;
+
 padding-bottom: 8rem;
  }
 
@@ -318,7 +325,7 @@ z-index: 1;
    align-items: center;
    max-width: 1200px;
    margin: 0 auto;
-   padding: 3rem 0;
+   padding: 4rem 0;
    display: flex;
    flex-direction: column;
    gap: 120px;
@@ -426,6 +433,13 @@ z-index: 1;
    line-height: 3rem;
 
 }
+.para{
+   max-width: 500px;
+    text-align:justify;
+     font-size: 18px;
+     padding: 0 4rem;
+     position: relative;
+}
 
 .iconsg{
 
@@ -433,19 +447,37 @@ z-index: 1;
    border-radius: 50%;
    margin-left: 600px;
    position: absolute;
+}
+.iconsg{
+
+   margin-top: -500px;
+   padding: 0 4px;
+   margin-left: 600px;
+
    height: 500px;
    width: 600px;
    align-items: center;
+   justify-content: center;
    
-
 }
 .iconp{
 
-   right: -5px;
-   height: 80px;
-   width: 93px;
-   margin-left: 20px;
+   padding: 0 4px;
+   height: 70px;
+   width: 85px;
+   margin-left: 15px;
+   height: 500px;
+   width: 600px;
+   align-items: center;
+   justify-content: center;
    
+}
+.iconp{
+   padding: 0 4px;
+   height: 70px;
+   width: 85px;
+   margin-left: 15px;
+   align-items: center;
 }
 
 .project-sub-heading{
@@ -626,14 +658,17 @@ span.psw {
 
 .box {
    position: absolute;
-   margin-top: 10px;
+   padding-top: 1%;
+   margin-top: 6px;
    text-align: center;
+   justify-content: center;
    height: 150px;
    font-size: 20px;
    width: 100%;
    padding: 5%;
    color: silver;
    background-color: black;
+   
    
 }
 .text{
@@ -642,3 +677,24 @@ span.psw {
    color: silver;
    text-decoration: underline;
 }
+.skill-container-left{
+   margin: 5%;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
